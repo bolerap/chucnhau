@@ -1,0 +1,25 @@
+<div class="w3-row-padding" style="margin-top: 10%">
+  <div class="w3-card-4">
+    <!-- header -->
+    <header class="w3-container w3-teal">
+      <h3 class="w3-center">Lovely card generating</h3>
+    </header>
+    <!-- content -->
+    <div class="w3-container">
+      <p>
+        <label>Title</label>
+        <input type="text" name="title" class="w3-input" [(ngModel)]="poem.title">
+        <label>Author</label>
+        <input type="text" class="w3-input" [(ngModel)]="poem.author">
+      </p>
+      <p>
+        <label>Content</label>
+        <textarea class="w3-input" placeholder="Enter content ..." name="content"
+                  id="content" cols="30" rows="10" [(ngModel)]="body"></textarea>
+      </p>
+      <p>
+        <button class="w3-btn w3-teal" (click)="generate()">Generate</button>
+      </p>
+    </div>
+  </div>
+</div>

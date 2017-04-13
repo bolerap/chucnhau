@@ -1,0 +1,33 @@
+{
+	"ImportPath": "gitlab.com/thanhngvpt/chucnhau",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/fogleman/gg",
+			"Rev": "6166aa3c1afaee416f384645a81636267aee6d25"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/raster",
+			"Comment": "release-134-g255de57",
+			"Rev": "255de57f4e681ed92b2d55a483a27194dfa2b3dc"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/truetype",
+			"Comment": "release-134-g255de57",
+			"Rev": "255de57f4e681ed92b2d55a483a27194dfa2b3dc"
+		},
+		{
+			"ImportPath": "golang.org/x/image/font",
+			"Rev": "7c3fafc74fb3a4a5e096c9557559d927f5098947"
+		},
+		{
+			"ImportPath": "golang.org/x/image/font/basicfont",
+			"Rev": "7c3fafc74fb3a4a5e096c9557559d927f5098947"
+		},
+		{
+			"ImportPath": "golang.org/x/image/math/fixed",
+			"Rev": "7c3fafc74fb3a4a5e096c9557559d927f5098947"
+		}
+	]
+}
