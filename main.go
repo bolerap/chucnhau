@@ -83,6 +83,10 @@ func main() {
 		})
 	}
 
+	router.NoRoute(func(c *gin.Context) {
+		c.File("./frontend/dist/index.html")
+	})
+
 	// Run server
 	router.Run(":8899")
 }
